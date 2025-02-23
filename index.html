@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <p id="text">0</p>
+
+        </div>
+        <div class="buttonmenu">
+        <div class="numbers">
+            <div class="row1">
+            <button class="r1" style="flex-grow: 1;" value="1" onclick="calc(value)">1</button>
+            <button class="r1" style="flex-grow: 1;" value="2" onclick="calc(value)">2</button>
+            <button class="r1" style="flex-grow: 1;" value="3" onclick="calc(value)">3</button>
+            <button class="r1" style="flex-grow: 1;" value="+" onclick="calc_value(value)">+</button>
+
+            </div>
+            <div class="row2">
+            <button  class="r2" value="4" onclick="calc(value)">4</button>
+            <button class="r2" value="5" onclick="calc(value)">5</button>
+            <button class="r2" value="6" onclick="calc(value)">6</button>
+            <button class="r2" value="-" onclick="calc_value(value)">-</button>
+            </div>
+            <div class="row3">
+            <button class="r3" value="7" onclick="calc(value)">7</button>
+            <button class="r3" value="8" onclick="calc(value)">8</button>
+            <button class="r3" value="9" onclick="calc(value)">9</button>
+            <button class="r3" value="*" onclick="calc_value(value)">*</button>
+
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="r4" value="0" onclick="calc(value)">0</button>
+            <button class="r4" value="C" onclick="calc(value)">C</button>
+            <button class="r4" value="=" onclick="calc_value(value)">=</button>
+            <button class="r4" value="%" onclick="calc_value(value)">%</button>
+        </div>
+    </div>
+
+    </div>
+    <script src="file.js"></script>
+</body>
+</html>
